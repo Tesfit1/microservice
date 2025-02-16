@@ -26,7 +26,6 @@ def log_message(message, level='info'):
     elif level == 'error':
         logging.error(message)
 
-
             #send_email("Batch Loading Error", f"Error executing {script}: {e}")
 
 # Schedule the batch loading
